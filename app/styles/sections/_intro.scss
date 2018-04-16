@@ -1,0 +1,24 @@
+.intro {
+  background-image: url('../images/intro-bg@3x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  .container {
+    align-items: flex-end;
+    display: flex;
+    height: 520px;
+  }
+  .wrapper {
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-family: DINPro;
+    font-size: 70px;
+  }
+  p {
+    color: #bbbbbb;
+    font-family: 'Open Sans';
+    font-size: 20px;
+  }
+}
