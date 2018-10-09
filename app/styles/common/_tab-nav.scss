@@ -1,0 +1,19 @@
+.nav {
+    .nav-item {
+        .nav-link {
+            background-color: transparent;
+            color: $color-silver;
+            font-family: $font-secondary;
+            font-size: 18px;
+
+            &.active {
+                &,
+                &:hover,
+                &:focus{
+                    color: $color-cornflower-blue;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

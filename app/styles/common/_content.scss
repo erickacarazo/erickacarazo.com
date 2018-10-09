@@ -1,6 +1,6 @@
 h2 {
   color: $color-cornflower-blue;
-  font-family: "DINPro";
+  font-family: $font-secondary;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 30px;
@@ -8,7 +8,7 @@ h2 {
 }
 
 p {
-  font-family: "Open Sans";
+  font-family: $font-primary;
   font-size: 14px;
   line-height: 2.14;
   color: #404040;
