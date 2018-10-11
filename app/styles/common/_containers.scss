@@ -1,0 +1,26 @@
+.tooltip-container {
+    $box-color:  $color-cornflower-blue;
+
+    background-color: $box-color;
+    color: $color-white;
+    display: block;
+    line-height: 1;
+    margin: 0;
+    padding: 10px 10px;
+    position: relative;
+    text-align: center;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid $box-color;
+        left: 10px;
+        margin-top: -1px;
+        position: absolute;
+        top: 100%;
+    }
+}
